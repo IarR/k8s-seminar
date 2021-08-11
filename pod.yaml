@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nginx
+  name: volume-test-pod
 spec:
   containers:
     - name: app1
@@ -12,7 +12,7 @@ spec:
         - name: app-storage
           mountPath: /storage
     - name: app2
-      image: 'supergiantkir/animals:bear'
+      image: 'yanivomc/spring-music:latest'
       ports:
         - containerPort: 8080
       volumeMounts:
