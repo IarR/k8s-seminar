@@ -5,7 +5,7 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: my-app
+      app: nginx
   replicas: 2 
   template: 
     metadata:
