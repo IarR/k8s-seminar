@@ -25,4 +25,4 @@ spec:
       - name: test-volume
         hostPath:
            path: /tmp/data
-           type: Directory
+           type: DirectoryOrCreate
