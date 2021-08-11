@@ -12,7 +12,7 @@ spec:
         - name: app-storage
           mountPath: /storage
     - name: app2
-      image: 'yanivomc/spring-music:latest'
+      image: 'supergiantkir/animals:bear'
       ports:
         - containerPort: 8080
       volumeMounts:
