@@ -16,13 +16,13 @@ spec:
         tier: frontend
     spec:
       containers:
-      - name: bearapp
-        image: supergiantkir/animals:bear
-        volumeMounts:
-        - name: test-volume
-          mountPath: /tmp/data
+        - name: bearapp
+          image: 'supergiantkir/animals:bear'
+          volumeMounts:
+            - name: test-volume
+              mountPath: /tmp/data
       volumes:
-      - name: test-volume
-        hostPath:
-           path: /tmp/data
-           type: DirectoryOrCreate
+        - name: test-volume
+          hostPath:
+            path: /tmp/data
+            type: DirectoryOrCreate
