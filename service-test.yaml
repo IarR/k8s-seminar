@@ -5,16 +5,16 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: nginx
+      app: zoo
   replicas: 2 
   template: 
     metadata:
       labels:
-        app: nginx
+        app: zoo
     spec:
       containers:
-      - name: nginx
-        image: nginx:latest
+      - name: zoo
+        image:  supergiantkir/animals:bear
         ports:
         - containerPort: 8080
         
