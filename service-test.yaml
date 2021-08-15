@@ -13,7 +13,7 @@ spec:
         app: zoo
     spec:
       containers:
-      - name: zoo
+      - name: moose
         image: supergiantkir/animals:moose
         ports:
         - containerPort: 8080
@@ -34,7 +34,7 @@ spec:
         app: zoo
     spec:
       containers:
-      - name: zoo
+      - name: bear
         image: supergiantkir/animals:bear
         ports:
         - containerPort: 8080
