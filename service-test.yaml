@@ -6,7 +6,7 @@ spec:
   selector:
     matchLabels:
       app: zoo
-  replicas: 2 
+  replicas: 1 
   template: 
     metadata:
       labels:
@@ -27,7 +27,7 @@ spec:
   selector:
     matchLabels:
       app: zoo
-  replicas: 2 
+  replicas: 1 
   template: 
     metadata:
       labels:
